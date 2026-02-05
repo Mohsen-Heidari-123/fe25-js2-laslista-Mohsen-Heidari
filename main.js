@@ -1,5 +1,5 @@
 import { getAll, postBook } from "./modules/firebase.js";
-import { Book } from "./modules/book.js";
+import { Book } from "./modules/Book.js";
 import { filterFavorite, sortBooks } from "./modules/filtering.js";
 
 const wrapper = document.querySelector("#books");
