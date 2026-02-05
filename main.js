@@ -9,7 +9,7 @@ const sortSelect = document.querySelector("#sort");
 
 let booksData = {}; 
 
-
+// this function will clear the wrapper and re-render the books based on the current filter and sort selections
 const renderBooks = () => {
     wrapper.innerHTML = "";
     const filteredBooks = filterFavorite(booksData, filterSelect.value);
